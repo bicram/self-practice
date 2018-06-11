@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <title>dropdown group</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="../css/bootstrap-theme.css" rel="stylesheet" type="text/css">
+
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+
+</head>
+<body>
+<!--               -->
+<div class="container">
+   <div class="row">
+     <div class="btn-toolbar">
+         <!--  button toolbar onekgulo button ke eksathe ekotrito korte shahajjo kore. ei kam
+                        korar age ekliney cilo shob menu gulo-->
+
+         <div class="btn-group">
+             <a href="#" class="btn btn-danger">no name </a>
+              <a href="#" class="btn btn-danger">baler jinish</a>
+               <a href="#" class="btn btn-danger">condoms</a>
+                <!--     button group banalam ekhane     -->
+
+     <div class="dropdown btn-group">
+            <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown">product<span class="caret"></span></button>
+            <ul class="dropdown-menu">
+                <!-- dropdown menu ante hoy kivabe eta bornona kora hoyache-->
+                <li class="dropdown-header">mens clothing</li>
+                <li><a href="#">polo t-shirt </a></li>
+                <li><a href="#">easy t-shirt </a></li>
+                <li class="divider"> </li>
+                <!-- dropdown divider-->
+
+                <li class="dropdown-header">womens clothing</li>
+                <li><a href="#">polo t-shirt </a></li>
+                <li class="disabled"><a href="#">polo t-shirt </a></li>
+                <!-- ekhane mone kori je polo t shirt ta ekhono market e ashenai tokhon amra product
+                ta ke disable kore rakhlam       -->
+            </ul>
+     </div>
+   </div>
+
+
+         <div class="btn-group btn-group-lg" >
+             <!--     button group lg ek dhoroner tag er dara amra oi button
+              gulote aro nana rokom design korte pari,niche button group sm babohar kore kaj koresi    -->
+             <a href="#" class="btn btn-danger">no name </a>
+             <a href="#" class="btn btn-danger">baler jinish</a>
+             <a href="#" class="btn btn-danger">condoms</a>
+             <!--     button group banalam ekhane     -->
+
+             <div class="dropdown btn-group btn-group-sm">
+                 <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown">product<span class="caret"></span></button>
+                 <ul class="dropdown-menu">
+                     <!-- dropdown menu ante hoy kivabe eta bornona kora hoyache-->
+                     <li class="dropdown-header">mens clothing</li>
+                     <li><a href="#">polo t-shirt </a></li>
+                     <li><a href="#">easy t-shirt </a></li>
+                     <li class="divider"> </li>
+                     <!-- dropdown divider-->
+
+                     <li class="dropdown-header">womens clothing</li>
+                     <li><a href="#">polo t-shirt </a></li>
+                     <li class="disabled"><a href="#">polo t-shirt </a></li>
+                     <!-- ekhane mone kori je polo t shirt ta ekhono market e ashenai tokhon amra product
+                     ta ke disable kore rakhlam       -->
+                 </ul>
+             </div>
+         </div>
+
+
+  </div>
+</div>
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="../js/bootstrap.min.js"></script>
+</body>
+</html>

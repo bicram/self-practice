@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <title>Form</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="../css/bootstrap-theme.css" rel="stylesheet" type="text/css">
+
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+
+</head>
+<body>
+<!--  form banate chaile form tag er nmoddhe likhte hobe
+ bootstrap extra ditese class form-controle,jar jonno amake diver moddhe form group delare kore ashte hobe
+ -->
+<hr>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-6">
+            <form>
+                <div class="form-group">
+                    <label for="first_name">first name</label>
+                    <input type="text" name="first_name" class="form-control" placeholder="nam lekh bainchod">
+                </div>
+                <div class="form-group">
+                    <label for="subject">subject</label>
+                    <input type="text" name="first_name" class="form-control input-lg"
+                           placeholder="subject lekh bainchod">
+                    <!-- ami ei field ta shavabik theke boro chaisi tai class e input lg lagaisi-->
+                </div>
+                <div class="form-group">
+                    <label for="images">images</label>
+                    <input type="file" name="images" class="form-control">
+                </div>
+                <div class="form-group">
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" checked>i agree to the terms and condition
+                        </label>
+                    </div>
+                    <div class="checkbox ">
+                        <label>
+                            <input type="checkbox">i do not agree to the terms and condition
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="option">yes
+                        </label>
+                        <label>
+                            <input type="radio" name="option">no
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group has-success"><!--for color purpose has error/success-->
+                    <label for="messege">messege</label>
+                    <textarea rows="5" cols="5" name="messege" class="form-control" placeholder="type you wanna slurr "></textarea>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- j) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="../js/bootstrap.min.js"></script>
+</body>
+</html>
